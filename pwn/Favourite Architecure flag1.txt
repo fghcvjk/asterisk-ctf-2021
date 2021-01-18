@@ -1,0 +1,9 @@
+submit flag1 here
+
+flag format is flag{...}
+
+nc 119.28.89.167 60001
+
+root@ubuntu:~# nc 119.28.89.167 60001
+Input the flag: flag
+You are wrong ._.

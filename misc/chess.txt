@@ -1,0 +1,35 @@
+root@ubuntu:~# nc 138.91.120.132 8083
+Win as soon as possible!
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B N R
+Plz input your next step like '1 18'
+1 18
+Plz continue
+
+r n b q k b . r
+p p p p p p p p
+. . . . . n . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Plz input your next step like '1 18'
+8 16
+Plz continue
+
+r n b q k b . r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+P . N . . . . .
+. P P P P P P P
+R . B Q K B N R
+Plz input your next step like '1 18'

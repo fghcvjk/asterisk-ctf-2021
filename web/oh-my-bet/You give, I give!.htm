@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="You%20give,%20I%20give!_files/bootstrap.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>You give, I give!</title>
+</head>
+<body>
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">You give, I give!</h1>
+
+        <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center"></h5>
+            <form method="post" id="create_team" class="form-signin">
+                <div class="form-label-group">
+                <p>
+                    <label for="username">Give me your favourite username</label><br>
+                    <input class="form-control" id="username" name="username" required="" size="128" type="text"><br>
+                </p>
+                <p>
+                    <label for="password">Give me your password quietly 👻</label><br>
+                    <input class="form-control" id="password" name="password" required="" size="128" type="text"><br>
+                </p>
+                   <p>
+                       <label for="avatar">Choose a cute avatar!</label><br>
+                    <select id="avatar" name="avatar" class="form-control" aria-label=".form-select-lg example" onchange="return ChangeAvatar()">
+                      <option value="1.png" selected="selected">One</option>
+                      <option value="2.png">Two</option>
+                      <option value="3.png">Three</option>
+                      <option value="4.png">Four</option>
+                      <option value="5.png">Five</option>
+                      <option value="6.png">Six</option>
+                    </select>
+                   </p>
+                    <div class="container">
+                        <p class="text-center">
+                            <img id="avatar-img" class="avatar-img" src="You%20give,%20I%20give!_files/1.png">
+                        </p>
+                    </div>
+
+              </div>
+                    <p><input class="btn btn-lg btn-primary btn-block text-uppercase" id="submit" name="submit" type="submit" value="Go!"></p>
+                    
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script>
+        function ChangeAvatar() {
+            var value = document.getElementById("avatar").value
+            console.log(value)
+            var avatar_img = document.getElementById("avatar-img")
+            avatar_img.src = "static/img/avatar/" + value
+        }
+
+    </script>
+
+</body></html>

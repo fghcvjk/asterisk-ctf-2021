@@ -1,0 +1,21 @@
+root@ubuntu:~# nc 52.163.228.53 8088
+[$] Welcome to StArNDBOX.
+[+] sha256(R5Wu4W7t + ?).binary.endswith('00000')
+[-] ?=fLFc
+[+] passed
+               .+"+.+"+.+"+.+"+.+"+.+"+.+"+.+"+.+"+.+"+.+"+.+"+.
+                (               Welcome to StArNDBOX!          )
+                )              Shall we play a game?          (
+               (                       Enjoy it !              )
+               "+.+"+.+"+.+"+.+"+.+"+.+"+.+"+.+"+.+"+.+"+.+"+.+"
+
+
+Game environment: rinkeby
+1. Create a game account
+2. Deploy game contract(s)
+3. Request for flag
+
+[-]input your choice: 1
+[+]Your game account:0x19b5ac4aD9af64e2573f65a1558E785b9600A1f0
+[+]Token: zaX7SV0oxeuyx8e/dtWvKbpbgtJSnofgJrT2X1oBZ/t34Pt76/WkyGHPCfOnHAtX2I7VCZ620w48XOCaZYu+ZBRlDWwL3+owDwa81SVfACpmLJAAPGumS85aArDWsVR0rSVkXFwpdTVT6DBLRk4DI53ItpMBVmI2P6FI27W7ovQ=
+[+]Please transfer at least 0.4 ETH to your game account before Deploy

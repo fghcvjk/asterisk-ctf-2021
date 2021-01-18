@@ -1,0 +1,5 @@
+submit flag2 here
+
+flag format is flag{...}
+
+nc 119.28.89.167 60001
